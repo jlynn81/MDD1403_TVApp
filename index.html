@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="utf-8">
     <title>TV Show Premieres</title>
     <!-- INCLUDE REQUIRED THIRD PARTY LIBRARY JAVASCRIPT AND CSS -->
     <script type="text/javascript" src="js/angular.min.js"></script>
@@ -16,17 +17,44 @@
 <div class='banner'>
 
     <div class='container'>
-        <h1>TV SHOW PREMIERES</h1><img id="logo" src="img/TVLogo.png" class="img-responsive" alt="Site Logo">
+        
+        <h1>TV Show Premieres</h1>
 
     </div>
 </div>
-<div class="container main-frame" ng-app="TVPremieresApp" ng-controller="mainController" ng-init="init()">
+<div class="container main-frame ng-scope" ng-app="TVPremieresApp" ng-controller="mainController" ng-init="init()">
+
     <div class="search-box row-fluid form-inline">
+
         <label>Filter: </label>
-        <input type="text" ng-model="filterText"/>
+        <input type="text" ng-model="filterText" class="ng-pristine ng-valid">
         <label>Genre: </label>
-        <select ng-model="genreFilter" ng-options="label for label in availableGenres">
-            <option value="">All</option>
+        <select ng-model="genreFilter" ng-options="label for label in availableGenres" class="ng-pristine ng-valid">
+            <option value class="">All</option>
+            <option value="0">Animation</option>
+            <option value="1">Children</option>
+            <option value="2">Suspense</option>
+            <option value="3">Romance</option>
+            <option value="4">Comedy</option>
+            <option value="5">Fantasy</option>
+            <option value="6">Sport</option>
+            <option value="7">Reality</option>
+            <option value="8">Family</option>
+            <option value="9">Thriller</option>
+            <option value="10">Adventure</option>
+            <option value="11">Talk Show</option>
+            <option value="12">Action</option>
+            <option value="13">Crime</option>
+            <option value="14">Horror</option>
+            <option value="15">Drama</option>
+            <option value="16"></option>
+            <option value="17">Animation</option>
+            <option value="18">Animation</option>
+            <option value="19">Animation</option>
+            <option value="20">Animation</option>
+            <option value="21">Animation</option>
+
+
         </select>
         <label>Order by: </label>
         <select ng-model="orderField" ng-options="label for label in orderFields" class="input-medium"></select>
@@ -42,7 +70,8 @@
                 <div class="row-fluid">
                     <div class="span3">
                         <img src="{{tvshow.episode.images.screen}}" />
-                        <div class="ratings"><strong>Ratings:</strong> <span class="label"><i class="icon-thumbs-up"></i> {{tvshow.episode.ratings.loved}}</span>
+                        <div class="ratings"><strong>Ratings:</strong>
+                            <span class="label"><i class="icon-thumbs-up"></i> {{tvshow.episode.ratings.loved}} </span>
                             <span class="label"><i class="icon-thumbs-down"></i> {{tvshow.episode.ratings.hated}}</span>
                             <span class="label label-important" ng-class="{'label-success': tvshow.episode.ratings.percentage >= 50}"><strong>%</strong> {{tvshow.episode.ratings.percentage}}</span>
                         </div>
@@ -51,7 +80,7 @@
                         <h3>{{tvshow.show.title}}: {{tvshow.episode.title}}</h3>
                         <p>{{tvshow.episode.overview}}</p>
                     </div>
-                    <div class="span3" ng-controller="secondaryController">
+                    <div class="span3">
                         <div class="fulldate pull-right label label-info">{{tvshow.date}}</div>
                         <ul class="show-info">
                             <li><strong>On Air:</strong> {{tvshow.show.air_day}} {{tvshow.show.air_time}}</li>
