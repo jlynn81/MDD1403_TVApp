@@ -51,19 +51,30 @@
             <option value="17">Science</option>
             <option value="18">Mini Series</option>
             <option value="19">Game Show</option>
-
-
         </select>
+
         <label>Order by: </label>
-        <select ng-model="orderField" ng-options="label for label in orderFields" class="input-medium"></select>
-        <select ng-model="orderReverse"class="input-medium">
+
+        <select ng-model="orderField" ng-options="label for label in orderFields" class="input-medium ng-pristine ng-valid">
+            <option value="0" selected="selected">Air Date</option>
+            <!--Displays the rating for the given Tv Show-->
+            <option value="1">Rating</option>
+        </select>
+
+        <select ng-model="orderReverse" class="input-medium ng-pristine ng-valid">
             <option value="true">Descending</option>
             <option value="false">Ascending</option>
         </select>
+
     </div>
+
     <div class="results-top"></div>
+
     <div class="results-container">
+
+        <!--Below will display the episodes within a list format-->
         <ul class="episode-list">
+            <!--Utilization of the ng-repeat will pull the filtered Data from the JSON file to display on the screen-->
             <li ng-repeat="tvshow in results | filter: filterText | isGenre:genreFilter | orderBy:customOrder:orderReverse">
                 <div class="row-fluid">
                     <div class="span3">
