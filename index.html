@@ -26,9 +26,11 @@
 <div class="container main-frame ng-scope" ng-app="TVPremieresApp" ng-controller="mainController" ng-init="init()">
     <!--Div applies to the Search Feature within the App-->
     <div class="search-box row-fluid form-inline">
-
+        <!--Filters out the Content of the movie/Search feature-->
         <label>Filter: </label>
+        <!--input type is for the user utilizing the Twitter Bootstrap and AngularJS-->
         <input type="text" ng-model="filterText" class="ng-pristine ng-valid">
+        <!--Allows the user to sort the content via Genre through a dropdown list-->
         <label>Genre: </label>
         <select ng-model="genreFilter" ng-options="label for label in availableGenres" class="ng-pristine ng-valid">
             <option value class="">All</option>
@@ -53,7 +55,7 @@
             <option value="18">Mini Series</option>
             <option value="19">Game Show</option>
         </select>
-
+        <!--Allows the user to sort how they want there TV Shows to be displayed on the screen-->
         <label>Order by: </label>
 
         <select ng-model="orderField" ng-options="label for label in orderFields" class="input-medium ng-pristine ng-valid">
@@ -68,7 +70,7 @@
         </select>
 
     </div>
-
+    <!--Below code os for how the information will be pushed to the screen from the API-->
     <div class="results-top"></div>
 
     <div class="results-container">
