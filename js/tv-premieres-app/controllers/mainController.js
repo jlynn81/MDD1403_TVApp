@@ -5,7 +5,7 @@ app.controller("mainController", function($scope, $http){
     $scope.filterText = null;
     $scope.availableGenres = [];
     $scope.genreFilter = null;
-    $scope.orderFields = ["Air Date", "Rating"];
+    $scope.orderFields = ["Air Date"];
     $scope.orderDirections = ["Descending", "Ascending"];
     $scope.orderField = "Air Date"; //Default order field
     $scope.orderReverse = false;
@@ -60,9 +60,9 @@ app.controller("mainController", function($scope, $http){
         switch ($scope.orderField) {
             case "Air Date":
                 return tvshow.episode.first_aired;
-                break;
-            case "Rating":
-                return tvshow.episode.ratings.percentage;
+//                break;
+//            case "Rating":
+//                return tvshow.episode.ratings.percentage;
                 break;
         }
     };
