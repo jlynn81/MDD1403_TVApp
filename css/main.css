@@ -15,17 +15,19 @@ h1, h2, h3 {
     line-height: 50px;
 }
 .main-frame {
-    background-color: #FFF;
+    background-color: #ADDAF7;
     padding: 10px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     -khtml-border-radius: 5px;
     border-radius: 5px;
-    margin-top: -30px;
+    /*margin-top: -30px;*/
 }
+
+/*Search Box Configurations*/
 .search-box {
     line-height: 50px;
-    background-color: #333;
+    background-color: #4A9BFD;
     color: #FFF;
     margin-bottom: 10px;
     -moz-border-radius: 5px;
@@ -36,6 +38,10 @@ h1, h2, h3 {
 .search-box label {
     font-weight: bold;
     margin-left: 10px;
+}
+
+.search-box input {
+    color: #010B40;
 }
 
 .episode-list {
