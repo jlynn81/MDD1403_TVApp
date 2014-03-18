@@ -1,4 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Tinos);
+@import url(http://fonts.googleapis.com/css?family=Tinos:400,400italic,700,700italic);
+
 body {
    background-color: #5dace9;
 }
@@ -21,7 +22,7 @@ h1, h2, h3 {
     -webkit-border-radius: 5px;
     -khtml-border-radius: 5px;
     border-radius: 5px;
-    /*margin-top: -30px;*/
+    margin-top: -30px;
 }
 
 /*Search Box Configurations*/
@@ -40,20 +41,17 @@ h1, h2, h3 {
     margin-left: 10px;
 }
 
-.search-box input {
-    color: #010B40;
-}
-
-.episode-list {
-    list-style: none;
-    margin: 0px;
-}
+/*.search-box input {*/
+    /*color: #010B40;*/
+/*}*/
 
 .episode-list h3 {
     margin-top: 0px;
 }
 
 .episode-list {
+    list-style: none;
+    margin: 0px;
     line-height: 30px;
     text-align: center;
     background-color: #333;

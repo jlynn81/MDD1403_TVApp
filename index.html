@@ -6,7 +6,7 @@
     <!-- INCLUDE REQUIRED THIRD PARTY LIBRARY JAVASCRIPT AND CSS -->
     <script type="text/javascript" src="js/angular.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+    <!--<link rel="stylesheet" href="css/bootstrap-responsive.min.css">-->
 
     <!-- INCLUDE APPLICATION SPECIFIC CSS AND JAVASCRIPT -->
     <script type="text/javascript" src="js/tv-premieres-app/app.js"></script>
@@ -27,7 +27,7 @@
     <!--Div applies to the Search Feature within the App-->
     <div class="search-box row-fluid form-inline">
         <!--Filters out the Content of the movie/Search feature-->
-        <label>Filter: </label>
+        <label>Sort: </label>
         <!--input type is for the user utilizing the Twitter Bootstrap and AngularJS-->
         <input type="text" ng-model="filterText" class="ng-pristine ng-valid">
         <!--Allows the user to sort the content via Genre through a dropdown list-->
@@ -57,12 +57,6 @@
         </select>
         <!--Allows the user to sort how they want there TV Shows to be displayed on the screen-->
         <label>Order by: </label>
-
-        <!--<select ng-model="orderField" ng-options="label for label in orderFields" class="input-medium ng-pristine ng-valid">-->
-            <!--<option value="0" selected="selected">Air Date</option>-->
-            <!--&lt;!&ndash;Displays the rating for the given Tv Show&ndash;&gt;-->
-            <!--&lt;!&ndash;<option value="1">Rating</option>&ndash;&gt;-->
-        <!--</select>-->
 
         <select ng-model="orderReverse" class="input-medium ng-pristine ng-valid">
             <option value="true">Descending</option>
@@ -95,7 +89,7 @@
                     <div class="span3">
                         <div class="fulldate pull-right label label-info">{{tvshow.date}}</div>
                         <ul class="show-info">
-                            <li><strong>On Air:</strong> {{tvshow.show.air_day}} {{tvshow.show.air_time}}</li>
+                            <li><strong>Show Time:</strong> {{tvshow.show.air_day}} {{tvshow.show.air_time}}</li>
                             <li><strong>Network:</strong> {{tvshow.show.network}}</li>
                             <li><strong>Season #:</strong> {{tvshow.episode.season}}</li>
                             <li><strong>Genres:</strong> <span class="label label-inverse genre" ng-repeat="genre in tvshow.show.genres" ng-click="setGenreFilter(genre)">{{genre}}</span></li>
