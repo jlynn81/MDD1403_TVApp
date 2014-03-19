@@ -1,11 +1,12 @@
-@import url(http://fonts.googleapis.com/css?family=Tinos:400,400italic,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Tinos);
 
 body {
-   background-color: #5dace9;
+    background-color: #5dace9;
 }
 h1, h2, h3 {
     font-family: 'Tinos', serif;
 }
+
 .banner {
     background-color: #0074cd;
     color: #FFF;
@@ -16,7 +17,7 @@ h1, h2, h3 {
     line-height: 50px;
 }
 .main-frame {
-    background-color: #ADDAF7;
+    background-color: #FFF;
     padding: 10px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -24,11 +25,9 @@ h1, h2, h3 {
     border-radius: 5px;
     margin-top: -30px;
 }
-
-/*Search Box Configurations*/
 .search-box {
     line-height: 50px;
-    background-color: #4A9BFD;
+    background-color: #333;
     color: #FFF;
     margin-bottom: 10px;
     -moz-border-radius: 5px;
@@ -41,33 +40,26 @@ h1, h2, h3 {
     margin-left: 10px;
 }
 
-
-
-/*.search-box input {*/
-    /*color: #010B40;*/
-/*}*/
+.episode-list {
+    list-style: none;
+    margin: 0px;
+}
 
 .episode-list h3 {
     margin-top: 0px;
 }
 
-.episode-list {
-    list-style: none;
-    margin: 0px;
-
+.episode-list .ratings {
+    line-height: 30px;
+    text-align: center;
+    background-color: #333;
+    color: #FFF;
+    margin-top: 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
 }
-
-/*.episode-list .ratings {*/
-    /*line-height: 30px;*/
-    /*text-align: center;*/
-    /*background-color: #333;*/
-    /*color: #FFF;*/
-    /*margin-top: 10px;*/
-    /*-moz-border-radius: 5px;*/
-    /*-webkit-border-radius: 5px;*/
-    /*-khtml-border-radius: 5px;*/
-    /*border-radius: 5px;*/
-/*}*/
 
 .episode-list .fulldate {
     margin: 5px;
