@@ -43,12 +43,14 @@ app.controller("mainController", function($scope, $http){
                             }
                         });
                         if (exists === false) {
+                            //push out the genre
                             $scope.availableGenres.push(genre);
                         }
                     });
 
                 });
             });
+            //controls the errors
         }).error(function(error) {
 
             });
