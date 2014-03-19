@@ -564,8 +564,8 @@ a.bg-danger:hover {
 }
 
 ul, ol {
-    margin-top: 0;
-    margin-bottom: 10px
+    margin: 0 0 10px 25px;
+    padding: 0;
 }
 
 ul ul, ol ul, ul ol, ol ol {
@@ -810,7 +810,33 @@ pre code {
     width: 220px;
 }
 
-[class*="span"]{
+.row-fluid .span6 {
+    width: 48.6188%;
+}
+
+.row-fluid .span6 {
+    width: 48.9362%;
+}
+.row-fluid [class*="span"] {
+    -moz-box-sizing: border-box;
+    display: block;
+    float: left;
+    margin-left: 2.12766%;
+    min-height: 30px;
+    width: 100%;
+}
+.span6 {
+    width: 352px;
+}
+[class*="span"] {
+    float: left;
+    margin-left: 20px;
+    min-height: 1px;
+}
+.span6 {
+    width: 460px;
+}
+[class*="span"] {
     float: left;
     margin-left: 20px;
     min-height: 1px;
