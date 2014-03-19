@@ -121,9 +121,9 @@ button {
     overflow: visible
 }
 
-button, select {
-    text-transform: none
-}
+/*button, select {*/
+    /*text-transform: none*/
+/*}*/
 
 button, html input[type=button], input[type=reset], input[type=submit] {
     -webkit-appearance: button;
@@ -295,9 +295,13 @@ td, th {
 /*}*/
 
 input, button, select, textarea {
-    font-family: inherit;
+    font-family: "Tinos", "serif";
     font-size: inherit;
-    line-height: inherit
+    line-height: inherit;
+}
+
+.input-medium {
+    width: 150px;
 }
 
 a {
@@ -3649,9 +3653,21 @@ input, textarea, .uneditable-input {
 input, textarea, .uneditable-input {
     width: 206px;
 }
-input, button, select, textarea {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+/*input, button, select, textarea {*/
+    /*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;*/
+/*}*/
+
+select {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    width: 220px;
 }
+
+select, input[type="file"] {
+    height: 30px;
+    line-height: 30px;
+}
+
 
 select.input-group-lg > .form-control, select.input-group-lg > .input-group-addon, select.input-group-lg > .input-group-btn > .btn {
     height: 46px;
@@ -3663,8 +3679,8 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
     color: #555555;
     display: inline-block;
     font-size: 14px;
-    height: 20px;
-    line-height: 20px;
+    /*height: 20px;*/
+    /*line-height: 20px;*/
     margin-bottom: 10px;
     padding: 4px 6px;
     vertical-align: middle;
@@ -6155,11 +6171,11 @@ label {
     margin-bottom: 5px;
 }
 
-label, input, button, select, textarea {
-    font-size: 14px;
-    font-weight: normal;
-    line-height: 20px;
-}
+/*label, input, button, select, textarea {*/
+    /*font-size: 14px;*/
+    /*font-weight: normal;*/
+    /*line-height: 20px;*/
+/*}*/
 
 label, select, button, input[type="button"], input[type="reset"], input[type="submit"], input[type="radio"], input[type="checkbox"] {
     cursor: pointer;
