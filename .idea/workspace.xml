@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4fa56c1-bcf1-4474-a22d-1df294cece3f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/water.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MDD1403_TVApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,7 +37,7 @@
       <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="34" selection-start="284" selection-end="284" vertical-scroll-proportion="0.31593794" vertical-offset="0" max-vertical-offset="1824">
+            <state line="14" column="0" selection-start="250" selection-end="250" vertical-scroll-proportion="0.31593794" vertical-offset="0" max-vertical-offset="1808">
               <folding />
             </state>
           </provider>
@@ -349,7 +346,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1044" y="-1016" width="1132" height="878" extended-state="1" />
+    <frame x="-1044" y="-1016" width="1132" height="878" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -547,7 +544,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="34" selection-start="284" selection-end="284" vertical-scroll-proportion="0.31593794" vertical-offset="0" max-vertical-offset="1824">
+        <state line="14" column="0" selection-start="250" selection-end="250" vertical-scroll-proportion="0.31593794" vertical-offset="0" max-vertical-offset="1808">
           <folding />
         </state>
       </provider>
