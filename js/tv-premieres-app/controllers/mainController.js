@@ -62,9 +62,9 @@ app.controller("mainController", function($scope, $http){
         switch ($scope.orderField) {
             case "Air Date":
                 return tvshow.episode.first_aired;
-//                break;
-//            case "Rating":
-//                return tvshow.episode.ratings.percentage;
+                break;
+            case "Rating":
+                return tvshow.episode.ratings.percentage;
                 break;
         }
     };
@@ -87,4 +87,5 @@ app.filter('isGenre', function() {
         }
     };
 });
+
 

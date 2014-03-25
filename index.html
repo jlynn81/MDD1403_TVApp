@@ -21,10 +21,11 @@
         <img class="logo" src="img/TVLogo.png" />
 
         <h1>TV Show Premieres</h1>
-
-        <nav></nav>
-
     </div>
+
+    <nav class="">
+
+    </nav>
 </div>
 
 <!--This is the info for the Main Frame that utilizes the ng-scope-->
@@ -32,7 +33,7 @@
     <!--Div applies to the Search Feature within the App-->
     <div class="search-box row-fluid form-inline">
         <!--Filters out the Content of the movie/Search feature-->
-        <label>Sort: </label>
+        <label>TV Show: </label>
         <!--input type is for the user utilizing the Twitter Bootstrap and AngularJS-->
         <input type="text" ng-model="filterText" class="ng-pristine ng-valid">
         <!--Allows the user to sort the content via Genre through a dropdown list-->
@@ -61,7 +62,7 @@
             <option value="19">Game Show</option>
         </select>
         <!--Allows the user to sort how they want there TV Shows to be displayed on the screen-->
-        <label>Order by: </label>
+        <label>Display Results: </label>
 
         <select ng-model="orderReverse" class="input-medium ng-pristine ng-valid">
             <option value="true">Descending</option>
@@ -81,11 +82,11 @@
                 <div class="row-fluid">
                     <div class="span3">
                         <img src="{{tvshow.episode.images.screen}}" />
-                        <!--<div class="ratings"><strong>Ratings:</strong>-->
-                            <!--<span class="label"><i class="icon-thumbs-up"></i> {{tvshow.episode.ratings.loved}} </span>-->
-                            <!--<span class="label"><i class="icon-thumbs-down"></i> {{tvshow.episode.ratings.hated}}</span>-->
-                            <!--<span class="label label-important" ng-class="{'label-success': tvshow.episode.ratings.percentage >= 50}"><strong>%</strong> {{tvshow.episode.ratings.percentage}}</span>-->
-                        <!--</div>-->
+                        <div class="ratings"><strong>Ratings:</strong>
+                            <span class="label"><i class="icon-thumbs-up"></i> {{tvshow.episode.ratings.loved}} </span>
+                            <span class="label"><i class="icon-thumbs-down"></i> {{tvshow.episode.ratings.hated}}</span>
+                            <span class="label label-important" ng-class="{'label-success': tvshow.episode.ratings.percentage >= 50}"><strong>%</strong> {{tvshow.episode.ratings.percentage}}</span>
+                        </div>
                     </div>
                     <div class="span6">
                         <h3>{{tvshow.show.title}}: {{tvshow.episode.title}}</h3>
@@ -107,12 +108,6 @@
     <div class="results-bottom"></div>
 </div>
 
-<div class="misuse">
-    <p>
-        For any misuse of the above information, please go to
-    </p>
-</div>
-
-<footer> Created By Jennifer Brown | MDD1403 Full Sail University | March 2014</footer>
+<footer> Created By Jennifer Brown | MDD1403 Full Sail University | Copyright March 2014</footer>
 </body>
 </html>
