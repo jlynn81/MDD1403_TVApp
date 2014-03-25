@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4fa56c1-bcf1-4474-a22d-1df294cece3f" name="Default" comment="" />
+    <list default="true" id="d4fa56c1-bcf1-4474-a22d-1df294cece3f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="MDD1403_TVApp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="49" selection-start="771" selection-end="771" vertical-scroll-proportion="-12.8" vertical-offset="0" max-vertical-offset="1968">
+            <state line="107" column="6" selection-start="5327" selection-end="5327" vertical-scroll-proportion="0.0" vertical-offset="1184" max-vertical-offset="1872">
               <folding />
             </state>
           </provider>
@@ -35,16 +38,16 @@
       <file leaf-file-name="bootstrap.min.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="694" column="10" selection-start="10960" selection-end="10984" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="87792">
+            <state line="694" column="10" selection-start="10960" selection-end="10984" vertical-scroll-proportion="0.0" vertical-offset="11104" max-vertical-offset="87792">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="27" selection-start="2504" selection-end="2504" vertical-scroll-proportion="0.7398844" vertical-offset="1072" max-vertical-offset="2112">
+            <state line="99" column="27" selection-start="2504" selection-end="2504" vertical-scroll-proportion="0.0" vertical-offset="1072" max-vertical-offset="2112">
               <folding />
             </state>
           </provider>
@@ -93,15 +96,15 @@
         <option value="$PROJECT_DIR$/css/temp.css" />
         <option value="$PROJECT_DIR$/js/tv-premieres-app/controllers/mainController.js" />
         <option value="$PROJECT_DIR$/css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/bootstrap-responsive.min.css" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="536" />
-    <option name="y" value="37" />
+    <option name="x" value="179" />
+    <option name="y" value="22" />
     <option name="width" value="1132" />
     <option name="height" value="823" />
   </component>
@@ -373,8 +376,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="536" y="37" width="1132" height="823" extended-state="1" />
-    <editor active="true" />
+    <frame x="179" y="22" width="1132" height="823" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3272311" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -406,6 +409,48 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="6" selection-start="5327" selection-end="5327" vertical-scroll-proportion="0.0" vertical-offset="1205" max-vertical-offset="1872">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="694" column="10" selection-start="10960" selection-end="10984" vertical-scroll-proportion="0.0" vertical-offset="11104" max-vertical-offset="87792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="27" selection-start="2504" selection-end="2504" vertical-scroll-proportion="0.0" vertical-offset="1072" max-vertical-offset="2112">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/tv-premieres-app/controllers/mainController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="35" selection-start="2673" selection-end="2673" vertical-scroll-proportion="0.0" vertical-offset="64" max-vertical-offset="1536">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/angular.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2704">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="31312">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="19" selection-start="825" selection-end="825" vertical-scroll-proportion="0.0" vertical-offset="384" max-vertical-offset="1968">
@@ -632,16 +677,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap-responsive.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="19" selection-start="2264" selection-end="2264" vertical-scroll-proportion="0.47832587" vertical-offset="1888" max-vertical-offset="20080">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="49" selection-start="771" selection-end="771" vertical-scroll-proportion="-12.8" vertical-offset="0" max-vertical-offset="1968">
-          <folding />
-        </state>
+        <state line="138" column="19" selection-start="2264" selection-end="2264" vertical-scroll-proportion="0.47832587" vertical-offset="1888" max-vertical-offset="20080" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
@@ -653,7 +689,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="27" selection-start="2504" selection-end="2504" vertical-scroll-proportion="0.7398844" vertical-offset="1072" max-vertical-offset="2112">
+        <state line="99" column="27" selection-start="2504" selection-end="2504" vertical-scroll-proportion="0.0" vertical-offset="1072" max-vertical-offset="2112">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="6" selection-start="5327" selection-end="5327" vertical-scroll-proportion="0.0" vertical-offset="1184" max-vertical-offset="1872">
           <folding />
         </state>
       </provider>
