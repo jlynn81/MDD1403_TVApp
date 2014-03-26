@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TV Show Premieres</title>
     <!-- INCLUDE REQUIRED THIRD PARTY LIBRARY JAVASCRIPT AND CSS -->
     <script type="text/javascript" src="js/angular.min.js"></script>
@@ -18,14 +19,31 @@
 <div class='banner'>
 
     <div class='container'>
-        <img class="logo" src="img/TVLogo.png" />
+        <img class="logo" src="css/images/TVLogo.png" />
 
         <h1>TV Show Premieres</h1>
+
+    </div>
+</div>
+
+<!--Navigation for the page to utilize other pages-->
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-th-list"></span></a>
+            <!--<a href="index.html" class="brand">responsiveSite</a>-->
+            <div class="nav-collapse collapse">
+                <ul class="nav pull-right">
+                    <li class="active"><a href="index.html">Home</a> </li>
+                    <li><a href="#">About Us</a> </li>
+                    <li><a href="js/tv-premieres-app/views/contact.html">Contact Us</a> </li>
+                    <li><a href="js/tv-premieres-app/views/terms.html">Terms and Policies</a> </li>
+                </ul>
+            </div>
+
     </div>
 
-    <nav class="">
-
-    </nav>
 </div>
 
 <!--This is the info for the Main Frame that utilizes the ng-scope-->
