@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4fa56c1-bcf1-4474-a22d-1df294cece3f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tv-premieres-app/views/contact.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tv-premieres-app/views/terms.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/TVLogo.png" afterPath="$PROJECT_DIR$/css/images/TVLogo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/water.gif" afterPath="$PROJECT_DIR$/css/images/water.gif" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/tv-premieres-app/controllers/mainController.js" afterPath="$PROJECT_DIR$/js/tv-premieres-app/controllers/mainController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/jlynn81.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/jlynn81.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MDD1403_TVApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,11 +35,29 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="78" selection-start="5392" selection-end="5392" vertical-scroll-proportion="0.79119086" vertical-offset="923" max-vertical-offset="1536">
+            <state line="21" column="54" selection-start="851" selection-end="851" vertical-scroll-proportion="0.23988006" vertical-offset="176" max-vertical-offset="1824">
               <folding>
-                <element signature="tag#select#0;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-                <marker date="1395774858000" expanded="true" signature="3725:4243" placeholder="..." />
+                <element signature="tag#select#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+                <marker date="1395787605000" expanded="true" signature="4596:5114" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/tv-premieres-app/views/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="20" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="64" max-vertical-offset="768">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="terms.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/tv-premieres-app/views/terms.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="23" selection-start="761" selection-end="761" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="816">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -43,7 +65,7 @@
       <file leaf-file-name="bootstrap.min.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="730" column="20" selection-start="11459" selection-end="11459" vertical-scroll-proportion="-11.090909" vertical-offset="11192" max-vertical-offset="88048">
+            <state line="3841" column="56" selection-start="84652" selection-end="84652" vertical-scroll-proportion="0.0" vertical-offset="64280" max-vertical-offset="88048">
               <folding />
             </state>
           </provider>
@@ -61,7 +83,7 @@
       <file leaf-file-name="mainController.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/tv-premieres-app/controllers/mainController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="23" selection-start="3498" selection-end="3498" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1552">
+            <state line="85" column="23" selection-start="3498" selection-end="3498" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1552">
               <folding />
             </state>
           </provider>
@@ -83,16 +105,17 @@
         <option value="$PROJECT_DIR$/css/temp.css" />
         <option value="$PROJECT_DIR$/css/bootstrap-responsive.min.css" />
         <option value="$PROJECT_DIR$/js/tv-premieres-app/controllers/mainController.js" />
-        <option value="$PROJECT_DIR$/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/contact.html" />
+        <option value="$PROJECT_DIR$/terms.html" />
+        <option value="$PROJECT_DIR$/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="685" />
-    <option name="y" value="32" />
-    <option name="width" value="851" />
+    <option name="y" value="22" />
+    <option name="width" value="1268" />
     <option name="height" value="823" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -210,48 +233,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MDD1403_TVApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MDD1403_TVApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MDD1403_TVApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MDD1403_TVApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MDD1403_TVApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MDD1403_TVApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -265,26 +246,21 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntriesCSS" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css/images" />
+      <recent name="$PROJECT_DIR$/js/tv-premieres-app/views" />
       <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/img" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -295,15 +271,23 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -363,14 +347,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="685" y="32" width="851" height="823" extended-state="0" />
+    <frame x="0" y="22" width="1268" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287858" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3272311" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27362737" sideWeight="0.28376535" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27362737" sideWeight="0.7162346" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18203689" sideWeight="0.28376535" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18203689" sideWeight="0.7162346" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -378,19 +362,6 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3272311" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27362737" sideWeight="0.28376535" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27362737" sideWeight="0.7162346" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USERS">
@@ -409,12 +380,33 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3841" column="56" selection-start="84652" selection-end="84652" vertical-scroll-proportion="0.0" vertical-offset="64280" max-vertical-offset="88048">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="16" selection-start="2969" selection-end="2969" vertical-scroll-proportion="0.0" vertical-offset="1436" max-vertical-offset="2144">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/tv-premieres-app/controllers/mainController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="23" selection-start="3498" selection-end="3498" vertical-scroll-proportion="0.0" vertical-offset="1360" max-vertical-offset="1552">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="107" column="6" selection-start="5327" selection-end="5327" vertical-scroll-proportion="0.0" vertical-offset="1205" max-vertical-offset="1872">
           <folding>
-            <element signature="tag#select#0;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <marker date="1395774858000" expanded="true" signature="3725:4243" placeholder="..." />
+            <element signature="tag#select#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+            <marker date="1395787605000" expanded="true" signature="4596:5114" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -442,26 +434,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/angular.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2704">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2704" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="31312">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="31312" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="19" selection-start="825" selection-end="825" vertical-scroll-proportion="0.0" vertical-offset="384" max-vertical-offset="1968">
           <folding>
-            <element signature="tag#select#0;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <marker date="1395774858000" expanded="true" signature="3725:4243" placeholder="..." />
+            <element signature="tag#select#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+            <marker date="1395787605000" expanded="true" signature="4596:5114" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -489,26 +475,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/angular.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2704">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2704" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="31312">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="31312" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="13" selection-start="819" selection-end="819" vertical-scroll-proportion="0.0" vertical-offset="384" max-vertical-offset="1968">
           <folding>
-            <element signature="tag#select#0;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <marker date="1395774858000" expanded="true" signature="3725:4243" placeholder="..." />
+            <element signature="tag#select#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+            <marker date="1395787605000" expanded="true" signature="4596:5114" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -536,26 +516,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/angular.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2704">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2704" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="31312">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="31312" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="17" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1760">
           <folding>
-            <element signature="tag#select#0;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <marker date="1395774858000" expanded="true" signature="3725:4243" placeholder="..." />
+            <element signature="tag#select#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+            <marker date="1395787605000" expanded="true" signature="4596:5114" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -581,26 +555,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/angular.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2704">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2704" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="31312">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="31312" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="72" column="87" selection-start="3355" selection-end="3355" vertical-scroll-proportion="0.0" vertical-offset="1152" max-vertical-offset="1856">
           <folding>
-            <element signature="tag#select#0;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <marker date="1395774858000" expanded="true" signature="3725:4243" placeholder="..." />
+            <element signature="tag#select#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+            <marker date="1395787605000" expanded="true" signature="4596:5114" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -622,7 +590,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/TVLogo.png">
+    <entry file="file://$PROJECT_DIR$/css/images/TVLogo.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -662,7 +630,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/TVLogo.png">
+    <entry file="file://$PROJECT_DIR$/css/images/TVLogo.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -684,32 +652,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="4064" max-vertical-offset="31248">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="4064" max-vertical-offset="31248" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/angular.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="502" selection-start="56195" selection-end="56198" vertical-scroll-proportion="-8.538462" vertical-offset="1602" max-vertical-offset="2704">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/tv-premieres-app/controllers/mainController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="23" selection-start="3498" selection-end="3498" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1552">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="730" column="20" selection-start="11459" selection-end="11459" vertical-scroll-proportion="-11.090909" vertical-offset="11192" max-vertical-offset="88048">
-          <folding />
-        </state>
+        <state line="114" column="502" selection-start="56195" selection-end="56198" vertical-scroll-proportion="-8.538462" vertical-offset="1602" max-vertical-offset="2704" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
@@ -719,12 +667,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/tv-premieres-app/views/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="20" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="64" max-vertical-offset="768">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/tv-premieres-app/views/terms.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="23" selection-start="761" selection-end="761" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3841" column="56" selection-start="84652" selection-end="84652" vertical-scroll-proportion="0.0" vertical-offset="64280" max-vertical-offset="88048">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/tv-premieres-app/controllers/mainController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="23" selection-start="3498" selection-end="3498" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1552">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="78" selection-start="5392" selection-end="5392" vertical-scroll-proportion="0.79119086" vertical-offset="923" max-vertical-offset="1536">
+        <state line="21" column="54" selection-start="851" selection-end="851" vertical-scroll-proportion="0.23988006" vertical-offset="176" max-vertical-offset="1824">
           <folding>
-            <element signature="tag#select#0;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <marker date="1395774858000" expanded="true" signature="3725:4243" placeholder="..." />
+            <element signature="tag#select#0;tag#div#0;tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+            <marker date="1395787605000" expanded="true" signature="4596:5114" placeholder="..." />
           </folding>
         </state>
       </provider>
