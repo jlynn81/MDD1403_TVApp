@@ -1,6 +1,6 @@
 //
-//  TVAppTests.m
-//  TVAppTests
+//  TVTests.m
+//  TVTests
 //
 //  Created by Jennifer Brown on 3/27/14.
 //  Copyright (c) 2014 WDD1403. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface TVAppTests : XCTestCase
+@interface TVTests : XCTestCase
 
 @end
 
-@implementation TVAppTests
+@implementation TVTests
 
 - (void)setUp
 {

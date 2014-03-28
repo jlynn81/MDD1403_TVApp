@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>TVApp.xcscheme</key>
+		<key>TV.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>A236F62F18E48101006CEBA1</key>
+		<key>A267A91C18E4F73D008EE4F3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A236F64F18E48101006CEBA1</key>
+		<key>A267A94018E4F73D008EE4F3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
