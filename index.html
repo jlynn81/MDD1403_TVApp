@@ -16,109 +16,109 @@
 </head>
 <body>
 
-<div class='banner'>
+    <div class='banner'>
 
-    <div class='container'>
-        <img class="logo" src="css/images/TVLogo.png"/>
+        <div class='container'>
+            <img class="logo" src="css/images/TVLogo.png"/>
 
-        <h1>TV Show Premieres</h1>
+            <h1>TV Show Premieres</h1>
 
+        </div>
     </div>
-</div>
 
-<!--This is the info for the Main Frame that utilizes the ng-scope-->
-<div class="container main-frame ng-scope" ng-app="TVPremieresApp" ng-controller="mainController" ng-init="init()">
-    <!--Div applies to the Search Feature within the App-->
-    <div class="search-box row-fluid form-inline">
-        <!--Filters out the Content of the movie/Search feature-->
-        <label>TV Show: </label>
-        <!--input type is for the user utilizing the Twitter Bootstrap and AngularJS-->
-        <input type="text" ng-model="filterText" class="ng-pristine ng-valid">
-        <!--Allows the user to sort the content via Genre through a dropdown list-->
-        <label>Genre: </label>
-        <select ng-model="genreFilter" ng-options="label for label in availableGenres" class="ng-pristine ng-valid">
-            <option value class="">All</option>
-            <option value="0">Animation</option>
-            <option value="1">Children</option>
-            <option value="2">Suspense</option>
-            <option value="3">Romance</option>
-            <option value="4">Comedy</option>
-            <option value="5">Fantasy</option>
-            <option value="6">Sport</option>
-            <option value="7">Reality</option>
-            <option value="8">Family</option>
-            <option value="9">Thriller</option>
-            <option value="10">Adventure</option>
-            <option value="11">Talk Show</option>
-            <option value="12">Action</option>
-            <option value="13">Crime</option>
-            <option value="14">Horror</option>
-            <option value="15">Drama</option>
-            <option value="16">Documentary</option>
-            <option value="17">Science</option>
-            <option value="18">Mini Series</option>
-            <option value="19">Game Show</option>
-        </select>
-        <!--Allows the user to sort how they want there TV Shows to be displayed on the screen-->
-        <label>Display Results: </label>
+    <!--This is the info for the Main Frame that utilizes the ng-scope-->
+    <div class="container main-frame ng-scope" ng-app="TVPremieresApp" ng-controller="mainController" ng-init="init()">
+        <!--Div applies to the Search Feature within the App-->
+        <div class="search-box row-fluid form-inline">
+            <!--Filters out the Content of the movie/Search feature-->
+            <label>TV Show: </label>
+            <!--input type is for the user utilizing the Twitter Bootstrap and AngularJS-->
+            <input type="text" ng-model="filterText" class="ng-pristine ng-valid">
+            <!--Allows the user to sort the content via Genre through a dropdown list-->
+            <label>Genre: </label>
+            <select ng-model="genreFilter" ng-options="label for label in availableGenres" class="ng-pristine ng-valid">
+                <option value class="">All</option>
+                <option value="0">Animation</option>
+                <option value="1">Children</option>
+                <option value="2">Suspense</option>
+                <option value="3">Romance</option>
+                <option value="4">Comedy</option>
+                <option value="5">Fantasy</option>
+                <option value="6">Sport</option>
+                <option value="7">Reality</option>
+                <option value="8">Family</option>
+                <option value="9">Thriller</option>
+                <option value="10">Adventure</option>
+                <option value="11">Talk Show</option>
+                <option value="12">Action</option>
+                <option value="13">Crime</option>
+                <option value="14">Horror</option>
+                <option value="15">Drama</option>
+                <option value="16">Documentary</option>
+                <option value="17">Science</option>
+                <option value="18">Mini Series</option>
+                <option value="19">Game Show</option>
+            </select>
+            <!--Allows the user to sort how they want there TV Shows to be displayed on the screen-->
+            <label>Display Results: </label>
 
-        <select ng-model="orderReverse" class="input-medium ng-pristine ng-valid">
-            <option value="true">Descending</option>
-            <option value="false">Ascending</option>
-        </select>
+            <select ng-model="orderReverse" class="input-medium ng-pristine ng-valid">
+                <option value="true">Descending</option>
+                <option value="false">Ascending</option>
+            </select>
 
-    </div>
-    <!--Below code os for how the information will be pushed to the screen from the API-->
-    <div class="results-top"></div>
+        </div>
+        <!--Below code os for how the information will be pushed to the screen from the API-->
+        <div class="results-top"></div>
 
-    <div class="results-container">
+        <div class="results-container">
 
-        <!--Below will display the episodes within a list format-->
-        <ul class="episode-list">
-            <!--Utilization of the ng-repeat will pull the filtered Data from the JSON file to display on the screen-->
-            <li ng-repeat="tvshow in results | filter: filterText | isGenre:genreFilter | orderBy:customOrder:orderReverse">
-                <div class="row-fluid">
-                    <div class="span3">
-                        <img src="{{tvshow.episode.images.screen}}" />
-                        <div class="ratings"><strong>Ratings:</strong>
-                            <span class="label"><i class="icon-thumbs-up"></i> {{tvshow.episode.ratings.loved}} </span>
-                            <span class="label"><i class="icon-thumbs-down"></i> {{tvshow.episode.ratings.hated}}</span>
-                            <span class="label label-important" ng-class="{'label-success': tvshow.episode.ratings.percentage >= 50}"><strong>%</strong> {{tvshow.episode.ratings.percentage}}</span>
+            <!--Below will display the episodes within a list format-->
+            <ul class="episode-list">
+                <!--Utilization of the ng-repeat will pull the filtered Data from the JSON file to display on the screen-->
+                <li ng-repeat="tvshow in results | filter: filterText | isGenre:genreFilter | orderBy:customOrder:orderReverse">
+                    <div class="row-fluid">
+                        <div class="span3">
+                            <img src="{{tvshow.episode.images.screen}}" />
+                            <div class="ratings"><strong>Ratings:</strong>
+                                <span class="label"><i class="icon-thumbs-up"></i> {{tvshow.episode.ratings.loved}} </span>
+                                <span class="label"><i class="icon-thumbs-down"></i> {{tvshow.episode.ratings.hated}}</span>
+                                <span class="label label-important" ng-class="{'label-success': tvshow.episode.ratings.percentage >= 50}"><strong>%</strong> {{tvshow.episode.ratings.percentage}}</span>
+                            </div>
+                        </div>
+                        <div class="span6">
+                            <h3>{{tvshow.show.title}}: {{tvshow.episode.title}}</h3>
+                            <p>{{tvshow.episode.overview}}</p>
+                        </div>
+                        <div class="span3">
+                            <div class="fulldate pull-right label label-info">{{tvshow.date}}</div>
+                            <ul class="show-info">
+                                <li><strong>Show Time:</strong> {{tvshow.show.air_day}} {{tvshow.show.air_time}}</li>
+                                <li><strong>Network:</strong> {{tvshow.show.network}}</li>
+                                <li><strong>Season #:</strong> {{tvshow.episode.season}}</li>
+                                <li><strong>Genres:</strong> <span class="label label-inverse genre" ng-repeat="genre in tvshow.show.genres" ng-click="setGenreFilter(genre)">{{genre}}</span></li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="span6">
-                        <h3>{{tvshow.show.title}}: {{tvshow.episode.title}}</h3>
-                        <p>{{tvshow.episode.overview}}</p>
-                    </div>
-                    <div class="span3">
-                        <div class="fulldate pull-right label label-info">{{tvshow.date}}</div>
-                        <ul class="show-info">
-                            <li><strong>Show Time:</strong> {{tvshow.show.air_day}} {{tvshow.show.air_time}}</li>
-                            <li><strong>Network:</strong> {{tvshow.show.network}}</li>
-                            <li><strong>Season #:</strong> {{tvshow.episode.season}}</li>
-                            <li><strong>Genres:</strong> <span class="label label-inverse genre" ng-repeat="genre in tvshow.show.genres" ng-click="setGenreFilter(genre)">{{genre}}</span></li>
-                        </ul>
-                    </div>
-                </div>
-            </li>
-        </ul>
-    </div>
-    <!--Footer for the page to utilize other pages-->
-    <div class="navbar navbar-default navbar-fixed-bottom">
-        <div class="container">
-            <p class="navbar-text pull-left">Created By Jennifer Brown | MDD1403 Full Sail University | Copyright March 2014</p>
+                </li>
+            </ul>
+        </div>
+        <!--Footer for the page to utilize other pages-->
+        <div class="navbar navbar-default navbar-fixed-bottom">
+            <div class="container">
+                <p class="navbar-text pull-left">Created By Jennifer Brown | MDD1403 Full Sail University | Copyright March 2014</p>
 
-            <a href="index.html" class="navbar-btn btn-info btn pull-right">Home</a>
-            <a href="http://trakt.tv/about" class="navbar-btn btn-info btn pull-right"> About Us</a>
-            <a href="http://trakt.tv/terms" class="navbar-btn btn-info btn pull-right">Terms and Policies</a>
+                <a href="index.html" class="navbar-btn btn-info btn pull-right">Home</a>
+                <a href="http://trakt.tv/about" class="navbar-btn btn-info btn pull-right"> About Us</a>
+                <a href="http://trakt.tv/terms" class="navbar-btn btn-info btn pull-right">Terms and Policies</a>
+
+            </div>
 
         </div>
 
+        <div class="results-bottom"></div>
+
     </div>
-
-    <div class="results-bottom"></div>
-
-</div>
 
 </body>
 </html>

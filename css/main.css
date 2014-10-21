@@ -1,7 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Tinos);
 
 body {
-    background: #5dace9 url("images/background.gif");
+    background: rgb(30,105,222); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(30,105,222,1) 0%, rgba(84,163,238,1) 50%, rgba(109,179,242,1) 99%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,105,222,1)), color-stop(50%,rgba(84,163,238,1)), color-stop(99%,rgba(109,179,242,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(30,105,222,1) 0%,rgba(84,163,238,1) 50%,rgba(109,179,242,1) 99%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(30,105,222,1) 0%,rgba(84,163,238,1) 50%,rgba(109,179,242,1) 99%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(30,105,222,1) 0%,rgba(84,163,238,1) 50%,rgba(109,179,242,1) 99%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(30,105,222,1) 0%,rgba(84,163,238,1) 50%,rgba(109,179,242,1) 99%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e69de', endColorstr='#6db3f2',GradientType=0 ); /* IE6-9 */
 }
 h1, h2, h3 {
     font-family: 'Tinos', serif;
@@ -9,18 +16,12 @@ h1, h2, h3 {
 
 .banner {
     color: #ffffff;
-    background: -moz-linear-gradient(top, rgba(30,87,153,0) 0%, rgba(30,87,153,0.8) 15%, rgba(30,87,153,1) 19%, rgba(30,87,153,1) 20%, rgba(41,137,216,1) 50%, rgba(30,87,153,1) 80%, rgba(30,87,153,1) 81%, rgba(30,87,153,0.8) 85%, rgba(30,87,153,0) 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,0)), color-stop(15%,rgba(30,87,153,0.8)), color-stop(19%,rgba(30,87,153,1)), color-stop(20%,rgba(30,87,153,1)), color-stop(50%,rgba(41,137,216,1)), color-stop(80%,rgba(30,87,153,1)), color-stop(81%,rgba(30,87,153,1)), color-stop(85%,rgba(30,87,153,0.8)), color-stop(100%,rgba(30,87,153,0))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0) 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0) 100%); /* IE10+ */
-    background: linear-gradient(to bottom, rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0) 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#001e5799',GradientType=0 ); /* IE6-9 */
 }
 
 .banner h1 {
     font-size: 50px;
     line-height: 50px;
+    letter-spacing: 0.25em;
     margin-top: 70px;
     text-shadow: 2px 2px #000;
     -webkit-text-stroke: 1px black;
@@ -45,6 +46,7 @@ h1, h2, h3 {
 .search-box {
     line-height: 65px;
     background-color: #4A9BFD;
+    background-image: url("images/background2.gif");
     color: midnightblue;
     margin-bottom: 20px;
     -moz-border-radius: 5px;
